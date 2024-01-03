@@ -1,0 +1,53 @@
+// 1200 992 768 576 320
+// 1200 - 992
+// 991 - 768
+// 767 - 576
+// 575 - 320
+
+@media (max-width: 992px) {
+    .header{
+        .header_item{
+            .header_title{
+                width:706px;
+                .text{
+                    font-size: 30px;
+                }
+                .text2{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header{
+        .header_item{
+            .header_title{
+                width:563px;
+                .text{
+                    font-size: 30px;
+                }
+                .text2{
+                    margin-left: 435px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header{
+        .header_item{
+            .header_title{
+                width: 310px;
+                .text{
+                    font-size: 30px;
+                }
+                .text2{
+                    margin-left: 327px;
+                }
+            }
+        }
+    }
+}
